@@ -14,10 +14,10 @@
   transform: translateY(-50%);
   transition: all 300ms ease-out;
   cursor: pointer;
-
 }
 
-.philips-bridge:hover, .philips-bridge:focus {
+.philips-bridge:hover,
+.philips-bridge:focus {
   background-color: white;
   border: 2px solid white;
   color: black;
@@ -28,9 +28,17 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  background: #0099F7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0099f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f11712,
+    #0099f7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f11712,
+    #0099f7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   align-items: center;
   justify-content: space-between;
 }
@@ -48,7 +56,8 @@
   cursor: pointer;
 }
 
-.philips-color-btn:hover, .philips-color-btn:focus {
+.philips-color-btn:hover,
+.philips-color-btn:focus {
   background-color: white;
   border: 2px solid white;
   color: black;
